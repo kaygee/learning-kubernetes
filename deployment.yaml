@@ -20,7 +20,7 @@ spec:
       - name: pod-info-container
         image: httpd:latest
         ports:
-        - containerPort: 3000
+        - containerPort: 80
         env:
           - name: POD_NAME
             valueFrom:
